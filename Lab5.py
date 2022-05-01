@@ -56,7 +56,15 @@ def _plot_several(arr, title, savefile, legend_arr):
 
     ax.grid(which="major")
     ax.grid(which="minor", linestyle=":")
-    ax.set_xlabel
+    ax.set_xlabel("Frequency [Hz]")
+    ax.set_ylabel("Amplitude [dB]")
+    ax.set_title(title)
+    ax.set_xticks(x_ticks_pta)
+    ax.set_xtickslabels([str(x) for x in x_ticks_pta])
+    plt.legend(bbox_to_anchor=(1,0.5), loc="center left")
+    plt.savefig(savefile)
+    plt.show()
+
 
 
 file_pta = _read_csv("pta.csv", "pta")
