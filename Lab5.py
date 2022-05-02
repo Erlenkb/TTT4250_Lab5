@@ -45,7 +45,7 @@ def _calculate_log_mean(lst):
         avg += 10**(i / 10)
     return round(10*np.log10(avg / len(lst)),1)
 
-def _plot_several(arr, title, savefile, legend_arr):
+def _plot_PTA_vs_NEWT_single_pers(arr, title, savefile, legend_arr):
     assert arr.ndim == 1, f"Array size to big. Expected 1, got : {arr.ndim}"
 
     fig, ax = plt.subplots()
@@ -67,8 +67,12 @@ def _plot_several(arr, title, savefile, legend_arr):
 
 
 
+
 file_pta = _read_csv("pta.csv", "pta")
 file_newt = _read_csv("newt.csv", "newt")
 
+newt_without_person7 = file_newt[11, :]
 
-_plot_several(arr, "ew", "we", "re")
+print(newt_without_person7)
+
+
