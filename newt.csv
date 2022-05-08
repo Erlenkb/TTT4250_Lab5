@@ -8,8 +8,8 @@
 3;NEWT without HPD;5;11;15;3;9;3;3
 ;;;;;;;;
 ;NEWT with earplugs;-4.5;35;45;41;43;45;20.5
-4;;;;;;;;
-;;;;;;;;
+4;NEWT without HPD;3;1.5;11;1.5;5;-4;11
+;NEWT with earmuffs;20;26;11.5;37;11.5;26;41
 ;;;;;;;;
 5;NEWT without HPD;-0.5;3;7;1.5;-2;-0.5;11
 ;;;;;;;;
@@ -23,12 +23,12 @@
 8;NEWT without HPD;1.5;3;5;1.5;3;-0.5;5
 ;NEWT with earmuffs;9;29.5;39;31.5;39;33;26
 ;NEWT with earplugs;22;26;24;26;26;20.5;29.5
-9;;;;;;;;
+9;NEWT without HPD;-2;3;-4.5;1.5;1.5;-2;7
 ;;;;;;;;
-;;;;;;;;
+;NEWT with earplugs;21;28.5;27;23;32;34;55
 10;NEWT without HPD;5;11;15;3;9;3;3
+;NEWT with earmuffs;-4.5;35;45;41;43;45;20.5
 ;;;;;;;;
-;NEWT with earplugs;-4.5;35;45;41;43;45;20.5
 11;NEWT without HPD;-2.0;11.0;11.0;-3.5;13.0;9.0;-4.5
 ;NEWT with earmuffs;16.5;20;39;43;50;44.5;46.5
 ;;;;;;;;
